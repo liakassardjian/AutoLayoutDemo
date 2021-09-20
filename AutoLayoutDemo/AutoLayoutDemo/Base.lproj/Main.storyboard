@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="landscape" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,26 +13,26 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="926" height="428"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1455" translatesAutoresizingMaskIntoConstraints="NO" id="IS4-N9-P39">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="231.66666666666666"/>
+                                <rect key="frame" x="0.0" y="0.0" width="463" height="214"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0499" translatesAutoresizingMaskIntoConstraints="NO" id="UeN-ES-ufp">
-                                <rect key="frame" x="0.0" y="231.66666666666663" width="428" height="231.33333333333337"/>
+                                <rect key="frame" x="463" y="0.0" width="463" height="214"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_5590" translatesAutoresizingMaskIntoConstraints="NO" id="ucl-KP-8LA">
-                                <rect key="frame" x="0.0" y="463.00000000000006" width="428" height="231.66666666666669"/>
+                                <rect key="frame" x="0.0" y="214" width="463" height="214"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_6179" translatesAutoresizingMaskIntoConstraints="NO" id="wus-QU-uIo">
-                                <rect key="frame" x="0.0" y="694.66666666666663" width="428" height="231.33333333333337"/>
+                                <rect key="frame" x="463" y="214" width="463" height="214"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="linear" translatesAutoresizingMaskIntoConstraints="NO" id="7Qq-Yg-qUT">
-                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <rect key="frame" x="0.0" y="0.0" width="926" height="428"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diva e Billy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haH-K7-wJQ">
-                                <rect key="frame" x="36" y="64" width="356" height="37"/>
+                                <rect key="frame" x="80" y="20" width="766" height="37"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="31"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -125,6 +125,7 @@
                                 <include reference="3iu-WM-8BF"/>
                                 <include reference="BJo-XM-fcJ"/>
                                 <include reference="NY2-Y0-1rR"/>
+                                <exclude reference="ODh-0f-ZgY"/>
                                 <exclude reference="OPr-Bk-CpA"/>
                                 <exclude reference="TZz-ex-HEY"/>
                                 <exclude reference="UeV-nS-ara"/>
@@ -160,6 +161,7 @@
                                 <include reference="3iu-WM-8BF"/>
                                 <include reference="BJo-XM-fcJ"/>
                                 <include reference="NY2-Y0-1rR"/>
+                                <exclude reference="ODh-0f-ZgY"/>
                                 <exclude reference="OPr-Bk-CpA"/>
                                 <exclude reference="TZz-ex-HEY"/>
                                 <exclude reference="UeV-nS-ara"/>
